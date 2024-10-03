@@ -110,6 +110,8 @@ string VOICE_TTS = "en"; //default for espeak
 	#include "platform/rg350.h"
 #elif defined(TARGET_MIYOO)
 	#include "platform/miyoo.h"
+#elif defined(TARGET_XYDDS)
+	#include "platform/xydds.h"
 #elif defined(TARGET_GP2X) || defined(TARGET_WIZ) || defined(TARGET_CAANOO)
 	#include "platform/gp2x.h"
 #else //if defined(TARGET_LINUX)
